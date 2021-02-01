@@ -406,7 +406,7 @@ else
 endif
 else
 	cd $(crate-dir)/ && \
-	cargo test -p $(test-unit-crate) --all-features
+	cargo test --all-features
 endif
 endif
 endif
